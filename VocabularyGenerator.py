@@ -268,13 +268,13 @@ def generate_vocab():
     def task():
         html = generate_html_from_words(words)
         if FORMAT == "HTML":
-            output_file = f"PatherVocab_{datetime.datetime.now().strftime('%Y-%m-%d')}_{words[0].capitalize()}-{words[len(words) - 1].capitalize()}.html"
+            output_file = f"Vocab_{datetime.datetime.now().strftime('%Y-%m-%d')}_{words[0].capitalize()}-{words[len(words) - 1].capitalize()}.html"
             with open(output_file, "w", encoding="utf-8") as f:
                 f.write(html)
             progress_bar.stop()
             status_label.configure(text=f"Done! Saved {len(words)} words as {output_file}")
         elif FORMAT=="PDF":
-            output_file = f"PatherVocab_{datetime.datetime.now().strftime('%Y-%m-%d')}_{words[0].capitalize()}-{words[len(words) - 1].capitalize()}.pdf"
+            output_file = f"Vocab_{datetime.datetime.now().strftime('%Y-%m-%d')}_{words[0].capitalize()}-{words[len(words) - 1].capitalize()}.pdf"
             with open(output_file, 'wb') as result_file:
                 pisa.CreatePDF(html, dest=result_file)
             progress_bar.stop()
