@@ -25,5 +25,5 @@ pip install -r requirements.txt
 ```
 
 3. **Run the program:**
-   - Double-click **VocabularyGenerator.py** to run the program.
-   - On first run, the program will prompt you to enter your **Google Gemini API Key**.
+- Double-click **VocabularyGenerator.py** to run the program.
+- On first run, the program will prompt you to enter your **Google Gemini API Key**.
