@@ -2,24 +2,12 @@
 
 Generates a formatted HTML or PDF vocabulary sheet from a list of words using the Gemini API, including definitions, examples, synonyms, antonyms, and derivatives.
 
-## Features
-
-- Generates vocabulary tables in HTML or PDF format
-- Uses Google's Gemini API for word data
-- Includes support for:
-  - Definitions
-  - Example sentences
-  - Synonyms & antonyms
-  - Derivative forms (noun, verb, adjective, adverb)
-- CustomTkinter GUI interface
-- British spelling support
-
 ## Requirements
 
-- Python 3.9+
-- Google Generative AI Python SDK
-- `customtkinter`
-- `xhtml2pdf`
+- Python 3.9+ ([Tutorial](https://youtu.be/YKSpANU8jPE?t=17))
+- Google Gemini API Key ([Tutorial](https://www.youtube.com/watch?v=6BRyynZkvf0))
+- Libraries in "requirements.txt" (More explanation in "Installation" section)
+- An Internet connection (I do hope you don't need a tutorial for that one)
 
 ## Installation
 
