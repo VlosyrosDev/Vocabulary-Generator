@@ -14,4 +14,15 @@ Generates a formatted HTML or PDF vocabulary sheet from a list of words using th
 1. **Download the files:**
 
 - Click on the green Code button and select Download ZIP.
-- Extract the ZIP file to a folder.
+- Extract the contents of the ZIP file.
+
+2. **Install required libraries:**
+
+- Inside of "Vocabulary-Generator-main", right-click on an empty space and click on "Open in Terminal".
+- Then run:
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run the program:**
+   - Simply double-click "VocabularyGenerator.py".
