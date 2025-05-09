@@ -20,9 +20,9 @@ Generates a formatted HTML or PDF vocabulary sheet from a list of words using th
 
 - Inside the extracted folder, **Vocabulary-Generator-main**, right-click on an empty space and click on "Open in Terminal".
 - Run the following command to install the required libraries:
-```bash
-pip install -r requirements.txt
-```
+    ```bash
+    pip install -r requirements.txt
+    ```
 
 3. **Run the program:**
 - Double-click **VocabularyGenerator.py** to run the program.
