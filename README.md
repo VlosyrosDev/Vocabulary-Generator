@@ -11,8 +11,7 @@ Generates a formatted HTML or PDF vocabulary sheet from a list of words using th
 
 ## Installation
 
-1. **Clone the repository:**
+1. **Download the files:**
 
-```bash
-git clone https://github.com/yourusername/pather-vocab-generator.git
-cd pather-vocab-generator
+- Click on the green Code button and select Download ZIP.
+- Extract the ZIP file to a folder.
