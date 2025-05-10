@@ -4,13 +4,13 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>dc885105-b468-43fc-bc1d-c6c6e7b69656</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>PatherVocabGenerator.py</StartupFile>
+    <StartupFile>VocabularyGenerator.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PatherVocabGenerator</Name>
-    <RootNamespace>PatherVocabGenerator</RootNamespace>
+    <Name>VocabularyGenerator</Name>
+    <RootNamespace>VocabularyGenerator</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="PatherVocabGenerator.py" />
+    <Compile Include="VocabularyGenerator.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
